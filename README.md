@@ -1,7 +1,10 @@
-# test coverage for  [webshot (v0.18.0)](https://github.com/brenden/node-webshot)  [![npm package](https://img.shields.io/npm/v/npmtest-webshot.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webshot) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webshot.svg)](https://travis-ci.org/npmtest/node-npmtest-webshot)
+# npmtest-webshot
+
+#### test coverage for  [webshot (v0.18.0)](https://github.com/brenden/node-webshot)  [![npm package](https://img.shields.io/npm/v/npmtest-webshot.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webshot) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webshot.svg)](https://travis-ci.org/npmtest/node-npmtest-webshot)
+
 #### Easy website screenshots
 
-[![NPM](https://nodei.co/npm/webshot.png?downloads=true)](https://www.npmjs.com/package/webshot)
+[![NPM](https://nodei.co/npm/webshot.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/webshot)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-webshot/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-webshot/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-webshot/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webshot/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webshot/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-webshot/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-webshot/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-webshot/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-webshot/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-webshot/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-webshot%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-webshot/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-webshot/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-webshot/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-webshot/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-webshot%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-webshot/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-webshot/build/test-report.html](https://npmtest.github.io/node-npmtest-webshot/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-webshot/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-webshot/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-webshot/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-webshot/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-webshot/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-webshot/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-webshot/build/screenCapture.npmPackageListing.svg)
 
@@ -34,12 +43,10 @@
     },
     "contributors": [
         {
-            "name": "Brenden Kokoszka",
-            "email": "brenden.kokoszka@gmail.com"
+            "name": "Brenden Kokoszka"
         },
         {
-            "name": "Matthew Chase Whittemore",
-            "email": "mcwhittemore@gmail.com"
+            "name": "Matthew Chase Whittemore"
         }
     ],
     "dependencies": {
@@ -71,15 +78,13 @@
     "main": "./lib/webshot.js",
     "maintainers": [
         {
-            "name": "bkokoszka",
-            "email": "bkokoszk@nd.edu"
+            "name": "bkokoszka"
         }
     ],
     "name": "webshot",
     "optionalDependencies": {
         "phantomjs-prebuilt": "^2.1.3"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/brenden/node-webshot.git"
