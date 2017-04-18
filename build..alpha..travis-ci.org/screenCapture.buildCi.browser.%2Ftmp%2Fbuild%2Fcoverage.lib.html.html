@@ -1,7 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Code coverage report for node-npmtest-webshot/webshot/lib/options.js</title>
+<html lang="en"><head>
+    <title>Code coverage report for node-npmtest-webshot/node_modules/webshot/lib/options.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -194,7 +192,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-webshot">npmtest-webshot (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-webshot/webshot/lib/options.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-webshot/node_modules/webshot/lib/options.js</span></h1>
     <h2>
         
         Statements: <span class="metric">31.58% <small>(6 / 19)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -210,11 +208,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-webshot/webshot/lib/</a> &#187; options.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> » <a href="index.html">node-npmtest-webshot/node_modules/webshot/lib/</a> » options.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tr><td class="line-count">1
+<tbody><tr><td class="line-count">1
 2
 3
 4
@@ -449,21 +447,21 @@ exports.caller = {
  * @param (Object) b
  * @return (Object)
  */
-exports.mergeObjects = <span class="fstat-no" title="function not covered" >function mergeObjects(a, b) {</span>
-<span class="cstat-no" title="statement not covered" >  var merged = {};</span>
+exports.mergeObjects = <span class="fstat-no" title="function not covered">function mergeObjects(a, b) {</span>
+<span class="cstat-no" title="statement not covered">  var merged = {};</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  Object.keys(a).forEach(<span class="fstat-no" title="function not covered" >function(key) {</span></span>
-<span class="cstat-no" title="statement not covered" >    merged[key] = toString.call(a[key]) === '[object Object]'</span>
+<span class="cstat-no" title="statement not covered">  Object.keys(a).forEach(<span class="fstat-no" title="function not covered">function(key) {</span></span>
+<span class="cstat-no" title="statement not covered">    merged[key] = toString.call(a[key]) === '[object Object]'</span>
       ? mergeObjects(a[key], b[key] || {})
       : a[key] || b[key];
   });
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  Object.keys(b).forEach(<span class="fstat-no" title="function not covered" >function(key) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (merged.hasOwnProperty(key)) <span class="cstat-no" title="statement not covered" >return;</span></span>
-<span class="cstat-no" title="statement not covered" >    merged[key] = b[key];</span>
+<span class="cstat-no" title="statement not covered">  Object.keys(b).forEach(<span class="fstat-no" title="function not covered">function(key) {</span></span>
+<span class="cstat-no" title="statement not covered">    if (merged.hasOwnProperty(key)) <span class="cstat-no" title="statement not covered">return;</span></span>
+<span class="cstat-no" title="statement not covered">    merged[key] = b[key];</span>
   });
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return merged;</span>
+<span class="cstat-no" title="statement not covered">  return merged;</span>
 };
 &nbsp;
 &nbsp;
@@ -474,21 +472,22 @@ exports.mergeObjects = <span class="fstat-no" title="function not covered" >func
  * @param (Array) keys
  * @return (Object)
  */
-exports.filterObject = <span class="fstat-no" title="function not covered" >function filterObject(obj, keys) {</span>
-<span class="cstat-no" title="statement not covered" >  var filtered = {};</span>
+exports.filterObject = <span class="fstat-no" title="function not covered">function filterObject(obj, keys) {</span>
+<span class="cstat-no" title="statement not covered">  var filtered = {};</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  keys.forEach(<span class="fstat-no" title="function not covered" >function(key) {</span></span>
-<span class="cstat-no" title="statement not covered" >    if (obj[key]) <span class="cstat-no" title="statement not covered" >filtered[key] = obj[key];</span></span>
+<span class="cstat-no" title="statement not covered">  keys.forEach(<span class="fstat-no" title="function not covered">function(key) {</span></span>
+<span class="cstat-no" title="statement not covered">    if (obj[key]) <span class="cstat-no" title="statement not covered">filtered[key] = obj[key];</span></span>
   });
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  return filtered;</span>
+<span class="cstat-no" title="statement not covered">  return filtered;</span>
 };
 &nbsp;
 &nbsp;</pre></td></tr>
-</table></pre>
+</tbody></table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 17:36:41 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 18 2017 18:12:32 GMT+0000 (UTC)</div>
 </div>
-</body>
-</html>
+
+
+</body></html>
