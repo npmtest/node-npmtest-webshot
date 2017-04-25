@@ -1,6 +1,6 @@
 # npmtest-webshot
 
-#### test coverage for  [webshot (v0.18.0)](https://github.com/brenden/node-webshot)  [![npm package](https://img.shields.io/npm/v/npmtest-webshot.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webshot) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webshot.svg)](https://travis-ci.org/npmtest/node-npmtest-webshot)
+#### basic test coverage for  [webshot (v0.18.0)](https://github.com/brenden/node-webshot)  [![npm package](https://img.shields.io/npm/v/npmtest-webshot.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webshot) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webshot.svg)](https://travis-ci.org/npmtest/node-npmtest-webshot)
 
 #### Easy website screenshots
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-webshot/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-webshot/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-webshot/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-webshot/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webshot/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webshot/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-webshot/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-webshot/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webshot/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webshot/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-webshot/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-webshot/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
     "scripts": {
         "test": "mocha --ui bdd --reporter spec --require should ./test/core.js ./test/options/*"
     },
-    "version": "0.18.0"
+    "version": "0.18.0",
+    "bin": {}
 }
 ```
 
